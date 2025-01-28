@@ -12,8 +12,8 @@ CUDA_VISIBLE_DEVICES=1 python cluster.py \
        --lamda 1 \
        --beta 1 \
        --hidden-dims 32 64 128 \
-       --latent-dim 6 \
-       --n-clusters 6 \
+       --latent-dim 8 \
+       --n-clusters 8 \
        --n-jobs 1 \
        --cuda \
        --log-interval 10
